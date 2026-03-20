@@ -1,0 +1,161 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+
+body{
+background:#f5f6fb;
+color:#333;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+color:#5a60ff;
+}
+
+.menu{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.menu a{
+text-decoration:none;
+color:#444;
+font-weight:500;
+}
+
+.menu a:hover{
+color:#5a60ff;
+}
+
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 80px;
+}
+
+.hero-text h1{
+font-size:48px;
+color:#5a60ff;
+margin-bottom:20px;
+}
+
+.hero-text p{
+margin-bottom:30px;
+font-size:18px;
+}
+
+.hero-text button{
+padding:12px 30px;
+background:#5a60ff;
+border:none;
+color:white;
+border-radius:30px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.hero-text button:hover{
+background:#4045d6;
+}
+
+
+/* IMAGE */
+
+.hero-image img{
+width:220px;
+height:220px;
+border-radius:50%;
+border:8px solid #5a60ff;
+object-fit:cover;
+}
+
+
+/* ABOUT */
+
+.about{
+text-align:center;
+padding:80px 200px;
+}
+
+.about h2{
+color:#5a60ff;
+margin-bottom:20px;
+}
+
+.about p{
+margin-bottom:15px;
+line-height:1.6;
+}
+
+
+/* SKILLS */
+
+.skills{
+padding:80px;
+text-align:center;
+}
+
+.skills h2{
+color:#5a60ff;
+margin-bottom:30px;
+}
+
+table{
+width:80%;
+margin:auto;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+th{
+background:#5a60ff;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #eee;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#5a60ff;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+.icons{
+margin-top:10px;
+}
+
+.icons span{
+margin:0 10px;
+}
